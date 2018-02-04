@@ -129,7 +129,7 @@ class	DMMP():
 			sys.stdout = open( self.opts.ofile, 'wt' )
 		if self.opts.files:
 			for name in self.opts.files:
-				self.do_name( files )
+				self.do_name( name )
 		else:
 			self.do_open_file( sys.stdin )
 		return 0
