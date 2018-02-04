@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 Name    = 'dmmp'
 Runtime	= 'dmmp'
-Version = '0.0.0'
+Version = '1.0.0'
 
 with open( '{0}/version.py'.format( Name ), 'wt' ) as f:
     print >>f, 'Version = "{0}"'.format( Version )
